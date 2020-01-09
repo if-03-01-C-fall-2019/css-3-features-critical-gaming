@@ -1,0 +1,212 @@
+
+/*#region Custom-Fonts*/
+@font-face {
+    font-family: 'FatPixel';
+    src: url("fonts/uni0563/uni0563-webfont.eot"); /* IE9 Compat Modes */
+    src: url("fonts/uni0563/uni0563-webfont.woff") format("woff"); /* Modern Browsers */
+    src: url("fonts/uni0563/uni0563-webfont.ttf")  format("truetype"); /* Safari, Android, iOS */
+
+}
+@font-face{
+    font-family: 'Pixel';
+    src:url("fonts/munro/munro.ttf") format("truetype"),
+    url("fonts/munro/munro-small.ttf")format("truetype"),
+    url("fonts/munro/munro-narrow.ttf")format("truetype");
+}
+/*#endregion*/
+.background{
+    background-image: url("pictures/WebsiteWallpaper.jpg");
+    background-position: 50%,50%;
+    background-attachment:fixed;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  margin: 0;
+  padding: 0;
+  border: 20px;
+  padding-top: 60px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: white;
+  background-color: #252525;
+  background-image: url("pictures/WebsiteWallpaper.jpg");
+  background-position: 50%,50%;
+  background-attachment:fixed;
+}
+main{
+  padding-left: 2%;
+}
+h1,h2,h3{
+  font-family: "Pixel";
+  margin: 0%;
+}
+h1{
+    text-align: center;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 128px;
+}
+h2{
+    font-size: 51px;
+    text-align: center;
+    padding-bottom: 16px;
+}
+h3 {
+    font-size: 36px;
+    text-align: center;
+}
+p{
+    padding-left: 60px;
+    font-size: 20px;
+    text-align: center;
+    padding-right: 60px;
+}
+section h3{
+  margin-left: 0.5%;
+}
+
+div{
+}
+.parallax{
+  background-image: url('pictures/img_parallax.jpeg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+}
+.parallax h1{
+  text-align: center;
+  padding-top: 300px;
+}
+/*#region navabar*/
+nav{
+  background-color: #202020;
+  overflow: auto;
+  display: block;
+  width: 100%;
+  top: 0;
+  position: fixed;
+}
+  nav a {
+    float: left;
+    color: white;
+    text-align: center;
+    font-family: "FatPixel";
+    padding: 15px 18px;
+    text-decoration: none;
+    font-size: 22px;
+  }
+  nav a:hover {
+    background-color: #B0B0B0;
+    color: black;
+    transition: 0.4s;
+  }
+  nav a.active {
+    background-color: #B0B0B0;
+    color: black;
+  }
+  nav a.nonactive {
+    /*hilft mit der übersicht*/
+  }
+/*#endregion*/
+
+/*#region halloffameble*/
+#halloffame th, td{
+  border: 1px solid black;
+}
+table{
+  border-collapse: collapse;
+  text-align: center;
+}
+#halloffame tr:nth-child(even){
+  background-color:#919191bb;
+}
+#halloffame tr:hover {
+  background-color: #262626e3;
+  color: white;
+}
+#halloffame th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #1a1a1a;
+}
+
+#halloffame table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+}
+
+#halloffame td, #halloffame th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+/*#endregion */
+
+.gameheader{
+  grid-area: header;
+ text-align: center;
+ font-family: "Pixel";
+ font-weight: normal;
+ font-style: normal;
+ font-size: 100px;
+}
+.gameimg{
+ grid-area: gameimg;
+ width: 400px;
+ height: 600px;
+}
+.gametext{
+ padding-left: 40px;
+ font-size: 23px;
+ text-align: left;
+}
+.rating{
+ grid-area: footer;
+}
+.grid-container{
+ display: grid;
+ grid-template-areas:
+ 'header header header header header header'
+ 'gameimg gameimg gametext gametext gametext gametext'
+ 'footer footer footer footer footer footer';
+ margin-top:30px;
+}
+ul.gallery {
+  list-style-type: none;
+  margin: 5px;
+  padding-top: 20px;
+}
+ul.gallery li{
+  border: 3px solid transparent;
+  margin: 0px 20px 0px;
+  float: left;
+  align-self: center;
+  text-align: center;
+  margin:20px;
+}
+ul.gallery li:hover {
+  border: 3px solid white;
+  box-shadow: 5px 5px 5px #4d4c4cd3;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+ul.gallery img {
+  width: 260px;
+  height: 370px;
+  border-radius: 15px;
+}
+
+ul.gallery p.desc {
+  margin: 0px 0px 20px;
+  padding: 0;
+  text-align: center;
+  font-family: "Pixel";
+  font-size: 25px;
+}
