@@ -38,6 +38,16 @@ body{
 main{
   padding-left: 2%;
 }
+footer{
+  position: fixed;
+  bottom: 40px;
+  right: 80px;
+  font-size: 25px;
+  color: white;
+}
+a:link,a:hover,a:visited{
+  color: white;
+}
 h1,h2,h3{
   font-family: "Pixel";
   margin: 0%;
@@ -67,8 +77,6 @@ section h3{
   margin-left: 0.5%;
 }
 
-div{
-}
 .parallax{
   background-image: url('pictures/img_parallax.jpeg');
   background-attachment: fixed;
