@@ -39,9 +39,7 @@ main{
   padding-left: 2%;
 }
 footer{
-  position: fixed;
-  bottom: 40px;
-  right: 80px;
+  margin-top: 100pc;
   font-size: 25px;
   color: white;
 }
