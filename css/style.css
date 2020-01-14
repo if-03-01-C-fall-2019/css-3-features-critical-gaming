@@ -45,6 +45,7 @@ footer{
 }
 a:link,a:hover,a:visited{
   color: white;
+  text-align: center;
 }
 h1,h2,h3{
   font-family: "Pixel";
@@ -215,4 +216,8 @@ ul.gallery p.desc {
   text-align: center;
   font-family: "Pixel";
   font-size: 25px;
+}
+
+{
+  text-align:center;
 }
