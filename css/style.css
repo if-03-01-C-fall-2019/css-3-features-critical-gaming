@@ -96,6 +96,7 @@ nav{
   width: 100%;
   top: 0;
   position: fixed;
+  z-index:3;
 }
   nav a {
     float: left;
@@ -203,13 +204,18 @@ ul.gallery li:hover {
   box-shadow: 5px 5px 5px #4d4c4cd3;
   border-radius: 15px;
   transition: 0.5s;
+
 }
 ul.gallery img {
   width: 260px;
   height: 370px;
   border-radius: 15px;
 }
-
+ul.gallery img:hover{
+filter:brightness(0.7);
+opacity: 0.9;
+transition: 2s;
+}
 ul.gallery p.desc {
   margin: 0px 0px 20px;
   padding: 0;
