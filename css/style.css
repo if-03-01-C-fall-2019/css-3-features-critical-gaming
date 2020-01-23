@@ -39,9 +39,11 @@ main{
   padding-left: 2%;
 }
 footer{
-  margin-top: 100pc;
+  text-align: center;
+  margin-top: 50px;
   font-size: 25px;
   color: white;
+  height: 100px;
 }
 a:link,a:hover,a:visited{
   color: white;
@@ -155,6 +157,11 @@ table{
   border: 1px solid #ddd;
   padding: 8px;
 }
+
+.table-gradient {
+  background-image: linear-gradient(to right, black , grey, black);
+}
+
 /*#endregion */
 
 ul.gallery {
@@ -197,6 +204,12 @@ ul.gallery p.desc {
   font-size: 25px;
 }
 
-.grad {
-  background-image: linear-gradient(red, yellow);
+/* Changelog */
+.changinglog{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+  border: 6px solid white;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
 }
