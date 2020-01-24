@@ -45,6 +45,9 @@ footer{
   color: white;
   height: 100px;
 }
+#games footer{
+  margin-top: 70em;
+}
 a:link,a:hover,a:visited{
   color: white;
   text-align: center;
@@ -213,3 +216,4 @@ ul.gallery p.desc {
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.1);
 }
+/* endregion */
