@@ -217,3 +217,18 @@ ul.gallery p.desc {
   background-color: rgba(255, 255, 255, 0.1);
 }
 /* endregion */
+
+.scale-up-ver-center {
+	-webkit-animation: scale-up-ver-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-ver-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+
+@keyframes scale-up-ver-center {
+  0% {
+            transform: scaleY(0.4);
+  }
+  100% {
+            transform: scaleY(1);
+  }
+}
