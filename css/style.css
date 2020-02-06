@@ -81,7 +81,8 @@ section h3{
   margin-left: 0.5%;
 }
 
-.parallax{
+/* region */
+.parallax-mainpage{
   background-image: url('pictures/img_parallax.jpeg');
   background-attachment: fixed;
   background-position: center;
@@ -89,10 +90,40 @@ section h3{
   background-size: cover;
   height: 1000px;
 }
-.parallax h1{
+.parallax-mainpage h1{
   text-align: center;
   padding-top: 300px;
 }
+.parallax-games{
+  background-image: url('pictures/rainbow.png');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+}
+.parallax-games h1{
+  text-align: center;
+  padding-top: 350px;
+}
+
+
+.parallax-about-us{
+  background-image: url('pictures/Abtract.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+}
+.parallax-about-us h1{
+  text-shadow: 0 0 5px black;
+  text-align: center;
+  padding-top: 250px;
+}
+
+/* endregion */
+
 /*#region navabar*/
 nav{
   background-color: #202020;
