@@ -150,8 +150,7 @@ input {
 	/*background: #424242;
 	background: -webkit-linear-gradient(to right, #FF8000, #FF0000);
 	background: linear-gradient(to right, #FF8000, #FF0000);*/
-	background-image: url('pictures/login.png');
-	opacity: 0.5;
+	background-image: url('pictures/login.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 0 0;
