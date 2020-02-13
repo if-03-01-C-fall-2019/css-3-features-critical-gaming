@@ -27,7 +27,8 @@ body{
   padding: 0;
   border: 20px;
   padding-top: 60px;
-  font-family: 'Courier New', Courier, monospace;
+  /*font-family: 'Courier New', Courier, monospace; */	font-family: 'Montserrat', sans-serif;
+
   font-weight: bold;
   color: white;
   background-color: #252525;
@@ -35,9 +36,7 @@ body{
   background-position: 50%,50%;
   background-attachment:fixed;
 }
-main{
-  padding-left: 2%;
-}
+
 footer{
   text-align: center;
   margin-top: 50px;
@@ -51,6 +50,12 @@ footer{
 a:link,a:hover,a:visited{
   color: white;
   text-align: center;
+}
+#instagram{
+  text-align: center;
+  font-size: 5em;
+  padding-left: 4em;
+
 }
 h1,h2,h3{
   font-family: "Pixel";
@@ -83,7 +88,7 @@ section h3{
 
 /* region */
 .parallax-mainpage{
-  background-image: url('pictures/img_parallax.jpeg');
+  background-image: url('pictures/img_parallax2.jpg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -91,8 +96,9 @@ section h3{
   height: 1000px;
 }
 .parallax-mainpage h1{
+  text-shadow: 0 0 5px black;
   text-align: center;
-  padding-top: 300px;
+  padding-top: 250px;
 }
 .parallax-games{
   background-image: url('pictures/rainbow.png');
@@ -106,8 +112,6 @@ section h3{
   text-align: center;
   padding-top: 350px;
 }
-
-
 .parallax-about-us{
   background-image: url('pictures/Abtract.jpg');
   background-attachment: fixed;
@@ -265,3 +269,24 @@ ul.gallery p.desc {
   }
 }
 /* endregion */
+
+/* About Us*/
+.column {
+  float: left;
+}
+
+.left {
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+.right {
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*endregion*/
