@@ -153,6 +153,20 @@ section h3{
   padding-top: 250px;
 }
 
+.parallax-survey{
+  background-image: url('pictures/survey.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+}
+.parallax-survey h1{
+  text-shadow: 0 0 5px black;
+  text-align: center;
+  padding-top: 250px;
+}
+
 /* endregion */
 
 /*#region navabar*/
