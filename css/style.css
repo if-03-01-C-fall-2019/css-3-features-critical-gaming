@@ -311,7 +311,7 @@ ul.gallery p.desc {
 }
 /* endregion */
 
-/* About Us*/
+/* splitter*/
 .column {
   float: left;
 }
@@ -331,3 +331,13 @@ row:after {
   clear: both;
 }
 /*endregion*/
+
+.boxscape{
+  font-family: "pixel";
+  font-size: 50px;
+  border: 6px solid white;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+  text-decoration: none;
+  margin-left: 450px;
+}
