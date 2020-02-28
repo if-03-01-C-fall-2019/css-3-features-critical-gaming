@@ -27,8 +27,7 @@ body{
   padding: 0;
   border: 20px;
   padding-top: 60px;
-  /*font-family: 'Courier New', Courier, monospace; */	font-family: 'Montserrat', sans-serif;
-
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   color: white;
   background-color: #252525;
