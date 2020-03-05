@@ -333,12 +333,17 @@ row:after {
 }
 /*endregion*/
 
-.boxscape{
+a.boxscape{
+  text-align: center;
   font-family: "pixel";
   font-size: 50px;
   border: 6px solid white;
   border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.1);
   text-decoration: none;
-  margin-left: 37%;
+  margin-left: 30%;
+}
+.submit{
+  font-size: 25px;
+  border: 3px solid #eb3434;
 }
